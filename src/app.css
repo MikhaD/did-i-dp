@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--bg-0: #1F2225;
+	--bg-1: #0E0E0E;
+
+	--fg-0: #FFFFFF;
+	--accent-0: #3492fd;
+
+	background-color: var(--bg-0);
+	color: var(--fg-0);
+	font-size: 62.5%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	font-size: 1.6rem;
+	padding: 0;
+	margin: 0;
+	margin-inline: 10rem;
+	text-align: center;
+}
+
+input {
+	color: inherit;
+	background-color: var(--bg-1);
+	border: none;
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
+
+input:focus {
+	outline: solid 2px var(--accent-0);
+}
